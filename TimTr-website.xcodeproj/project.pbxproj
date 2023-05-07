@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BA65A314298CCD97008F9B0F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		BA65A315298CCD97008F9B0F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		BA65A317298CCD97008F9B0F /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		BACCAC9D2A06DBF30087D53E /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BA65A30D298CCD5D008F9B0F = {
+			isa = PBXGroup;
+			children = (
+				BACCAC9D2A06DBF30087D53E /* readme.txt */,
+				BA65A314298CCD97008F9B0F /* index.html */,
+				BA65A315298CCD97008F9B0F /* assets */,
+				BA65A317298CCD97008F9B0F /* license.txt */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BA65A30E298CCD5D008F9B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = BA65A311298CCD5D008F9B0F /* Build configuration list for PBXProject "TimTr-website" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA65A30D298CCD5D008F9B0F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BA65A312298CCD5D008F9B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BA65A313298CCD5D008F9B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA65A311298CCD5D008F9B0F /* Build configuration list for PBXProject "TimTr-website" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65A312298CCD5D008F9B0F /* Debug */,
+				BA65A313298CCD5D008F9B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA65A30E298CCD5D008F9B0F /* Project object */;
+}
