@@ -96,7 +96,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  margin: 0.15em 0 0.15em 0;
+  margin: 0.05em 0 0.10em 0;
   color: #ff6a00;
 }
 h1 {
@@ -134,10 +134,24 @@ p {
 
 }
 
+/*! remove the bullet "dot" for these line items, e.g.:
+
+    <ul class="nobull">
+      <li>List item with no bullet</li>
+    </ul>
+*/
+.list-no-bullets {
+  list-style-type: none;
+}
+
 /*!  added emphasis */
 em {
-  font-style: italic;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: normal;
+  color: #ff6a00;
+
+  /* font-weight: 500; */
+
 }
 
 blockquote {
