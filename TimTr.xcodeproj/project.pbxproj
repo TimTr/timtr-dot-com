@@ -3,15 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
 		BA65A314298CCD97008F9B0F /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		BA65A315298CCD97008F9B0F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		BA65A317298CCD97008F9B0F /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		BACCAC9D2A06DBF30087D53E /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BAD5E3312D74FF0500E8506B /* assets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = assets; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXGroup section */
 		BA65A30D298CCD5D008F9B0F = {
@@ -19,7 +22,7 @@
 			children = (
 				BACCAC9D2A06DBF30087D53E /* readme.md */,
 				BA65A314298CCD97008F9B0F /* index.html */,
-				BA65A315298CCD97008F9B0F /* assets */,
+				BAD5E3312D74FF0500E8506B /* assets */,
 				BA65A317298CCD97008F9B0F /* license.txt */,
 			);
 			sourceTree = "<group>";
@@ -31,7 +34,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1630;
 			};
 			buildConfigurationList = BA65A311298CCD5D008F9B0F /* Build configuration list for PBXProject "TimTr" */;
 			compatibilityVersion = "Xcode 14.0";
