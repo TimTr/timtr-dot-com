@@ -4,54 +4,39 @@
 
 
 :root {
-  --bg-color: #24292e;
-  --bg-secondary-color: #1d1e1f;
-  --color-primary: #ff6a00;
-  --color-lightGrey: #d2d6dd;
-  --color-grey: #747681;
-  --color-darkGrey: #3f4144;
-  --color-error: #d43939;
-  --color-success: #28bd14;
-  --grid-maxWidth: 100rem;
-  --grid-gutter: 2rem;
-  --font-size: 2.0rem;
-  --font-color: #dfe1e0;
-  --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    
+    --bg-color: #0d1114;   /* modified #0d1116 main background */
+    --bg-secondary-color: #0d0d0c;  /* different dark background for highlights */
+    
+    
+    /** Previous color settings for the background
+     --bg-color: #24292e;
+     --bg-secondary-color: #1d1e1f;
+     */
+    
+    --color-primary: #ff6a00;  /** bright orange */
+    --color-lightGrey: #d2d6dd;
+    --color-grey: #747681;
+    --color-darkGrey: #3f4144;
+    --color-error: #d43939;
+    --color-success: #28bd14;
+    --grid-maxWidth: 100rem;
+    --grid-gutter: 2rem;
+    --font-size: 1.4rem;
+    --font-color: #dfe1e0;
+    --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+    --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+    
 }
-
-/*! Previous versions of the colors and fonts for reference
- 
- :root {
-   --bg-color: #ffffff;
-   --bg-secondary-color: #f3f3f6;
-   --color-primary: #14854F;
-   --color-lightGrey: #d2d6dd;
-   --color-grey: #747681;
-   --color-darkGrey: #3f4144;
-   --color-error: #d43939;
-   --color-success: #28bd14;
-   --grid-maxWidth: 120rem;
-   --grid-gutter: 2rem;
-   --font-size: 1.6rem;
-   --font-color: #333333;
-   --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
-     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-     "Droid Sans", "Helvetica Neue", sans-serif;
-   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
- }
- 
- */
-
-
 
 
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 100%;
+  /*   font-size: 62.5%; */
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -60,24 +45,6 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
-
-
-/** TURN OFF SCROLL BAR OVERRIDES
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-lightGrey) var(--bg-primary);
-}
-*::-webkit-scrollbar {
-  width: 8px;
-}
-*::-webkit-scrollbar-track {
-  background: var(--bg-primary);
-}
-*::-webkit-scrollbar-thumb {
-  background: var(--color-lightGrey);
-}
-*/
-
 
 body {
   background-color: var(--bg-color);
@@ -96,7 +63,9 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  margin: 0.05em 0 0.10em 0;
+  margin: 0em 0em 0em 0em;
+  /* margin: 0.05em 0 0.05em 0;  */
+
   color: #ff6a00;
 }
 h1 {
@@ -154,11 +123,23 @@ em {
 
 }
 
+.container {
+    max-width: var(--grid-maxWidth);
+    margin: 0 auto;
+    width: 900px;
+    /* width: 96%;    old version */
+    padding: 0 calc(var(--grid-gutter) / 2);
+}
+
 blockquote {
   background-color: var(--bg-secondary-color);
-  padding: 1.5rem 2rem;
+  width: 890px;
   border-left: 3px solid var(--color-lightGrey);
   margin-left: 10px;
+  padding-left: 1.0rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  /* padding: 0.5rem 0.5rem 1.5rem 1.0rem; */
 }
 dl dt {
   font-weight: bold;
@@ -200,10 +181,9 @@ tt {
 code,
 kbd {
   padding: 0 0.4rem;
-  font-size: 90%;
+  font-size: 80%;
   white-space: pre-wrap;
   border-radius: 4px;
-  padding: 0.2em 0.4em;
   background-color: var(--bg-secondary-color);
   color: #4094d1;
 }
@@ -231,12 +211,6 @@ fieldset {
 }
 iframe {
   border: 0;
-}
-.container {
-    max-width: var(--grid-maxWidth);
-    margin: 0 auto;
-    width: 96%;
-    padding: 0 calc(var(--grid-gutter) / 2);
 }
 .row {
     display: -webkit-box;
