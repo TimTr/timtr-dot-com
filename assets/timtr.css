@@ -4,8 +4,8 @@
 
 
 :root {
-    
-    --bg-color: #0d1114;   /* modified #0d1116 main background */
+    /* new: 101519 - old: #0d1114 */
+    --bg-color: #101519;   /* modified #0d1116 main background */
     --bg-secondary-color: #0d0d0c;  /* different background for highlights */
     
     --grid-maxWidth: 900px; /* cap at 900px */
